@@ -6,12 +6,13 @@ public class FurnitureImpl {
         FurnitureItem furnitureItem = new FurnitureItem();
         System.out.println("Enter the furniture Code : ");
         furnitureItem.furnitureCode = sc.nextInt();
+
         System.out.println("Enter the furniture type :");
-        System.out.println();
+        sc.nextLine();
         furnitureItem.furnitureType = sc.nextLine();
         System.out.println("Enter grade of furniture :");
         furnitureItem.gradeOfFurniture = sc.nextInt();
-        System.out.println();
+        sc.nextLine();
         System.out.println("Enter color of furniture :");
         furnitureItem.color = sc.nextLine();
         System.out.println("Enter where is the usage of furniture (indoor/outdoor)");
@@ -25,11 +26,11 @@ public class FurnitureImpl {
         System.out.println("Color of the furniture is :" + furnitureItem.color);
         System.out.println("Furniture is to use :" + furnitureItem.furnitureUsage);
 
-        if(furnitureItem.furnitureUsage == "indoor"){
+        if(furnitureItem.furnitureUsage.equalsIgnoreCase("indoor")){
             System.out.println("Price of the furniture is :" + furnitureItem.price);
         }
 
-        if(furnitureItem.furnitureUsage == "outdoor"){
+        if(furnitureItem.furnitureUsage.equalsIgnoreCase("outdoor")){
             System.out.println("Price of the furniture is :" + furnitureItem.discount(5));
         }
 

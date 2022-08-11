@@ -1,0 +1,45 @@
+Output on 1st Run
+"C:\Program Files\Java\jdk-18.0.1.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.4\lib\idea_rt.jar=53583:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.4\bin" -Dfile.encoding=UTF-8 -classpath "D:\NIIT\course3\Sprint 2\c3_s2_pc1_FurniturMart\out\production\c3_s2_pc1_FurniturMart" FurnitureImpl
+Enter the furniture Code :
+001
+Enter the furniture type :
+Table
+Enter grade of furniture :
+3
+Enter color of furniture :
+Green
+Enter where is the usage of furniture (indoor/outdoor)
+outdoor
+Enter the price of the furniture :
+20
+Code of the furniture is :1
+Type of the furniture is :Table
+Grade of the furniture is :3
+Color of the furniture is :Green
+Furniture is to use :outdoor
+
+Process finished with exit code 0
+
+Output on 2nd Run
+
+"C:\Program Files\Java\jdk-18.0.1.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.4\lib\idea_rt.jar=53772:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.4\bin" -Dfile.encoding=UTF-8 -classpath "D:\NIIT\course3\Sprint 2\c3_s2_pc1_FurniturMart\out\production\c3_s2_pc1_FurniturMart" FurnitureImpl
+Enter the furniture Code :
+1
+Enter the furniture type :
+table
+Enter grade of furniture :
+3
+Enter color of furniture :
+green
+Enter where is the usage of furniture (indoor/outdoor)
+outdoor
+Enter the price of the furniture :
+20
+Code of the furniture is :1
+Type of the furniture is :table
+Grade of the furniture is :3
+Color of the furniture is :green
+Furniture is to use :outdoor
+Price of the furniture is :19.0
+
+Process finished with exit code 0
