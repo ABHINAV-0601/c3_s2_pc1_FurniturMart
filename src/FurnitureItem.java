@@ -14,4 +14,10 @@ public class FurnitureItem {
         furnitureUsage = null;
         price = 0.0;
     }
+
+    public double discount(int discountPercentage){
+
+            return price - (price * discountPercentage/100);
+
+    }
 }
